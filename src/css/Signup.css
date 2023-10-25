@@ -1,0 +1,304 @@
+#signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+#signup .signup-logo{
+    margin-top: 32px;
+    max-width: 130px;
+    max-height: 60px;  
+}
+#signup .signup-text1{
+    padding-top: 40px !important;
+}
+#signup .t1{
+    font-family:Helvetica;
+    font-size: 32.3px;
+    margin-block-end: 0em;
+    margin-block-start: 0em;
+    font-weight: 790;
+    letter-spacing: -0.04em;
+    word-spacing: 0.1px;
+    line-height: 36px;
+}
+#signup .fb{
+    margin-top: 36px !important;
+    background-color:rgb(59, 89, 152) !important;
+}
+#signup .btn{
+    border: 20px;
+    min-width: 420px;
+    max-width: 900px;
+    width: 100% !important;
+    height: 50px;
+    font-family: Helvetica;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.07em; 
+    word-spacing: 0.05em;
+    transition: transform .1s;
+    letter-spacing: -0.01em;
+}
+.btn-primary{
+    color:rgb(248, 248, 248);
+    background-color:rgb(59, 89, 152);
+}
+.btn-light{
+    text-decoration: none;
+    letter-spacing: 0.07em;
+    font-weight:700; 
+    word-spacing: 0.05em;
+    /* padding: 12px 123px; */
+    background-color: white !important;
+    border: 0.15em solid #2221219f !important;
+    color: #000000b6 !important; 
+    letter-spacing: -0.01em; 
+    margin-top: 15px;
+}
+
+#signup .signpara1{
+    margin-top: 40px;
+    font-family: Helvetica;
+    position: relative; 
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #000000a9;
+}
+.signpara1::before{
+    content: "";
+    height: 1px;
+    width: 180px;
+    display: block;
+    position: absolute;
+    background-color: rgba(56, 52, 52, 0.267);
+    right: 50%;
+    top: 50%;
+    margin-right: 20px;
+    
+}
+.signpara1:after{
+    content: "";
+    height: 1px;
+    width: 180px;
+    display: block;
+    position: absolute;
+    background-color: rgba(56, 52, 52, 0.267);
+    left: 50%;
+    top: 50%;
+    margin-left: 20px;
+}
+#signup .input-field-label{
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+#signup .input-field{
+    font-size: 14px;
+    height: 50px;
+    width: 390px;
+    border: 1px solid rgba(0, 0, 0, 0.589);
+     outline-width: 2px;
+     border-radius: 5px;
+}
+#signup .with-mobile .login-with-mobile{
+    color: #117a37;
+    list-style: none;
+    font-family: Helvetica;
+    font-size: 14px;
+}
+#signup .linetext{
+    margin-top: 5px;
+    font-size: 15px;
+}
+#signup .textbox1 input,.test3 ::-webkit-input-placeholder{
+    display: block;
+    padding-left: 12px;   
+}
+#signup .textbox2 input,.test3 ::-webkit-input-placeholder{
+    display: block;
+    padding-left: 12px;   
+}
+#signup .textbox3 input,.test3 ::-webkit-input-placeholder{
+    display: block;
+    padding-left: 12px;   
+}
+#signup .textbox4 input,.test3 ::-webkit-input-placeholder{
+    display: block;
+    padding-left: 12px;   
+}
+#signup .birth{
+    margin-left: 5px;
+}
+
+#signup .yourbd .year-label{
+    margin-left: 2px;
+}
+#signup .yourbd .month-label{
+    margin-left: 67px;
+}
+#signup .yourbd .day-label{
+    margin-left: 132px;
+}
+
+#signup .yourbd .biryear .birthyear{
+    margin-top: 13px;
+    font-size: 1.2rem;
+    color: #010101;
+    font-family:Helvetica;
+    line-height: 1.5rem;
+    text-transform: none;
+    letter-spacing: normal;
+    border: 1px solid rgba(0, 0, 0, 0.589);
+    outline-width: 2px;
+    padding: 13px;
+    width: 80px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+#signup .yourbd .birmonth .birthmonth{
+    font-size: 1.18rem;
+    line-height: 1.5rem;
+    text-transform: none;
+    letter-spacing: normal;
+    color: #6c757d;
+    padding: 12px;
+    width: 160px;
+    margin-left: 15px;
+    margin-top: 13px;
+    appearance: none;
+    -webkit-appearance:none;
+    -moz-appearance: none;  
+    border-radius: 5px;
+}
+#signup .yourbd .birth-inputs{
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+}
+#signup .yourbd .birmonth .svgicon{
+    position:relative;
+    pointer-events: none;
+    right: 25px;
+}
+#signup .yourbd .birday .birthday{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-transform: none;
+    letter-spacing: normal;
+    color: #010101;
+    border: 1px solid rgba(0, 0, 0, 0.589);
+    outline-width: 2px;
+    padding: 12.5px;
+    width: 80px;
+    margin-top: 13px;
+    border-radius: 5px;
+}
+#signup .youbd .birday{
+    margin-left: -5px;
+}
+#signup .texterror{
+    display: flex;
+ }
+#signup .texterror h2{
+    font-weight: 600;
+    font-family: Helvetica;
+    color: #d31225;
+    font-size: 13.9px;
+    margin-top: 4.5px;
+    margin-left: 6px;
+ }
+ #signup .yourbd .birmonth .birthmonth>option{
+    font-family: Helvetica;
+    font-size: 1.2rem;
+    color: rgb(15, 15, 15);   
+}
+#signup .gend{
+    margin-top: 10px;
+}
+#signup .gvalues .men,.women,.non-bin,.oth,.pnts{
+    font-family: Helvetica;
+    margin-left: 5px;
+}
+#signup .gvalues .female,.non-binary,.other{
+    margin-left: 13px;
+}
+#signup .gvalues{
+    margin-top: 12px;
+}
+
+#signup .gvalues input[type='radio']{
+   
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #999;
+    transition: 0.09s all linear;
+    /* margin-right: 1px; */
+    position: relative;
+    top: 4px;
+}
+#signup .gvalues input[type='radio']:checked{
+  border: 5px solid #0d7130;
+}
+#signup .prefer-messages,.share-data,.existing-user,.existing-user .prev-user{
+  font-family: Helvetica;
+}
+#signup .marketing input[type='checkbox'],.register-data input[type='checkbox']{
+  height: 17px;
+  width: 17px;
+  accent-color:#0d7130;
+  position: absolute;
+}
+#signup .register-data input[type='checkbox']{
+    margin-top: 20px;
+}
+#signup .signupsub{
+     margin-top: 35px;
+     background-color:#1ed760;
+     color: black;
+     height: 50px;
+     width: 150px;
+     text-decoration: none;
+     font-family: Helvetica;
+     font-size:0.875rem;
+     letter-spacing: 0.5px;
+     border-radius: 30px;
+     border: 2px solid transparent;
+     transition: transform .1s;
+     font-weight: 800;
+}
+
+
+#signup .signupsub:hover{
+    transform: scale(1.05);
+}
+#signup .existing-user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+#signup .existing-user .prev-user{
+    color: #117a37;
+}
+#signup .existing-user .prev-user:hover{
+    color: #1ace5c;
+}
+.signup-submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

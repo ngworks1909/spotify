@@ -1,0 +1,70 @@
+.total-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(8, 8, 8);
+    border: none;
+    width: 100%;
+    height: 12dvh;
+}
+.bottom-icon{
+   height: 27px;
+   width: 27px;
+   color: white;
+}
+.bottom-icon:hover{
+  transform: scale(1.1);
+  transition: 0.28s ease-in-out;
+
+}
+.shuffle-button{
+  height: 22px;
+  width: 22px;
+}
+.bottom-replay-button{
+  height: 22px;
+  width: 22px;
+}
+.bottom-spplay-button {
+  width: 35px;
+  height: 35px;
+  border: none;
+  background-color: #eceaea;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.bottom-spplay-icon {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 16px solid #282828;
+  margin-left: 5px;
+  transition: .2s linear;
+}
+.bottom-sppause-icon{
+  width: 15px;
+  height: 15px;
+  background-color: #282828;
+  margin-left: 0px;
+  transition: .2s linear;
+}
+.sub-bottom{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.bottom-button{
+  background-color: transparent;
+  border: none;
+}
+
+
+
+
+
+  
+

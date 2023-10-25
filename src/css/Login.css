@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+
+#splogin{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+#splogin .sploginimg .loginlogo{
+    max-height: 60px;
+    max-width: 180px;
+}
+#splogin .loginhr1{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    width: 100%;
+    margin-top: 21px;
+    background-color:rgba(95, 92, 92, 0.359);
+    border: 0 none;
+    color:black;
+    height: 1px;
+}
+#splogin .login-icons{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    margin-top: 50px;
+}
+
+#splogin .login-icons .btn{
+    min-width: 470px;
+    max-width: 900px;
+    width: 100% !important;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: Helvetica;
+    border-radius: 25px;
+    color:rgb(248, 248, 248);
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight:700; 
+    transition: transform .1s; 
+}
+.facebook{
+ background-color:rgb(59, 89, 152) !important;
+}
+.apple{
+    background-color: black !important;
+}
+.google,.mobile{
+    background-color: #ffff !important;
+    border: 1px solid #878787;
+    color: #000000 !important;
+}
+.btn:hover{
+    transform: scale(1.01);
+}
+#splogin .logpara{
+  
+    margin-top: 40px;
+    font-family: Helvetica;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;  
+}
+.logpara::before{
+    content: "";
+    height: 1px;
+    width: 200px;
+    display: block;
+    position: absolute;
+    background-color: #000000;
+    right: 50%;
+    top: 50%;
+    margin-right: 20px;
+    
+}
+.logpara:after{
+    content: "";
+    height: 1px;
+    width: 200px;
+    display: block;
+    position: absolute;
+    background-color: #000000;
+    left: 50%;
+    top: 50%;
+    margin-left: 20px;
+}
+#splogin .userid,.logpassword{
+    font-family: Helvetica;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 30px;
+    /* margin-left: -125px; */
+}
+#splogin .logpassword{
+    margin-top: 20px;
+}
+
+#splogin .emorus input,.logpass input{
+    font-size: 14px;
+    height: 50px;
+    width: 455px;
+    border: 1px solid rgba(0, 0, 0, 0.589);
+     outline-width: 2px;
+     border-radius: 5px;
+}
+#splogin .emorus input,.test input::-webkit-input-placeholder{
+    display: block;
+    padding-left: 12px;
+}
+#splogin .logpass input,.test2 ::-webkit-input-placeholder{
+    display: block;
+    padding-left: 12px;   
+}
+#splogin .incorrect-email-error,.incorrect-login-password-error{
+    display: flex;
+    margin-top: 5px;
+ }
+ #splogin .incorrect-email-error h2,.incorrect-login-password-error h2{
+    font-weight: 600;
+    font-family: Helvetica;
+    color: #d31225;
+    font-size: 13.9px;
+    margin-top: 4.5px;
+    margin-left: 6px;
+ }
+ #splogin .forgot-password{
+    margin-top: 20px;
+    font-family: Helvetica;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    transition: transform .2s;
+}
+#splogin .forgot-password:hover{
+    text-decoration: underline;
+}
+#splogin .remme input{
+    font-family: Helvetica;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+#splogin .remme{
+    margin-top: 26px;
+}
+#splogin .match{
+   position: absolute;
+   margin-left: 22px;;
+    font-family: Helvetica;
+    font-size: 13px;
+    font-weight: 600;
+   
+}
+#splogin .remme input{
+    height: 17px;
+    width: 17px;
+    accent-color:#0dff62e3;
+}
+#splogin .validate-details{
+    background-color:#1ed760;
+    position: absolute;
+    object-position: 0px;
+    height: 50px;
+    width: 120px;
+    font-family: Helvetica;
+    font-size:0.975rem;
+    letter-spacing: 1px;
+    margin-left: 308px;
+    margin-top: -20px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    transition: transform .05s;
+    font-weight: 700;
+  }
+#splogin .validate-details:hover{
+    transform: scale(1.03);
+}
+#splogin .loginhr4{
+    width: 457px;
+    background-color:rgba(42, 40, 40, 0.914);
+    border: 0 none;
+    color:black;
+    height: 1px;
+    margin-top: 40px;
+}
+#splogin .dnthvacc{
+    margin-left: -283px;
+  
+    margin-top: 20px;
+    font-family: Helvetica;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+#splogin .signupsp .sign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: Helvetica;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    height: 54px;
+    width: 450px;
+    border: 2px solid #878787;
+   
+    border-radius: 25px;
+    background-color: white;
+    
+  }
+  #splogin .signupsp{
+    transition: transform .1s;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+#splogin .signupsp:hover{
+    transform: scale(1.01);
+    border-width: 1.8px;
+    border-color: #000000;
+}
+
+@media screen and (max-width: 511px) {
+    
+    #splogin .btn{
+        min-width: 420px !important;
+    }
+    #splogin .input-field{
+        width: 400px !important;
+    }
+    .logpara::before,.logpara::after{
+        width: 180px;
+    }
+    #splogin .validate-details{
+        margin-left: 250px;
+    }
+    #splogin .dnthvacc{
+        margin-left: -235px;
+    }
+    #splogin .signupsp .sign{
+        width: 420px;
+    }
+}
+@media screen and (max-width: 450px) {
+    #splogin .btn{
+        min-width: 360px !important;
+    }
+    #splogin .input-field{
+        width: 360px !important;
+    }
+    .logpara::before,.logpara::after{
+        width: 160px;
+    }
+    #splogin .validate-details{
+        margin-left: 200px;
+    }
+    #splogin .dnthvacc{
+        margin-left: -165px;
+    }
+    #splogin .signupsp .sign{
+        width: 360px;
+    }
+}
+@media screen and (max-width: 400px) {
+    #splogin .btn{
+        min-width: 280px !important;
+    }
+    #splogin .input-field{
+        width: 260px !important;
+    }
+    .logpara::before,.logpara::after{
+        width: 110px;
+    }
+    #splogin .validate-details{
+        margin-left: 130px;
+    }
+    #splogin .dnthvacc{
+        margin-left: -85px;
+    }
+    #splogin .signupsp .sign{
+        width: 280px;
+    }
+}
+
+
+
+
+
