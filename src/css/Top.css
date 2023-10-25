@@ -31,19 +31,15 @@
   }
 .heading{
     position: relative;
-    background-color: rgb(8, 8, 8);
+    background-color: rgb(14, 14, 14);
     display: flex;
     align-items: center;
     justify-content: space-between;
     height:10dvh;
-    left: 280px;
-    width: calc(100% - 280px);
+    width: 100%;
     transition: var(--trans-05);
 }
-.heading.remove-heading{
-    left: 82px;
-    width: calc(100% - 82px);
-}
+
 .menu-button{
   background-color: transparent;
   border: none;
@@ -64,14 +60,5 @@
   justify-content: space-evenly;
 }
 
-@media (max-width : 998px){
-   .menu-block{
-    visibility: hidden;
-   }
-   .heading{
-    left: 82px;
-    width: calc(100% - 82px);
-   }
-}
 
 

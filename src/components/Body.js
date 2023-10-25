@@ -518,9 +518,9 @@ export default function Body() {
                 </div>
                 <div className="main-content-block">
                   <p className='content-paragraph color-white reduce-size'>Playlist</p>
-                  <h2 className='content-theme color-white reduce-size'>Sleep</h2>
-                  <p className="content-title color-white reduce-size">Gentle Ambient piano to help you fall asleep.</p>
-                  <p className='playlist-info color-white reduce-size'><span className='playlist-mid-info'>Spotify .0 likes .{songItems.length} songs, </span>about 14 hours</p>
+                  <h2 className='content-theme color-white reduce-size font-16'>Sleep</h2>
+                  <p className="content-title color-white reduce-size font-16">Gentle Ambient piano to help you fall asleep.</p>
+                  <p className='playlist-info color-white reduce-size font-16'><span className='playlist-mid-info'>Spotify .0 likes .{songItems.length} songs, </span>about 14 hours</p>
                 </div>
               </div>
 

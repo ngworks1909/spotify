@@ -1,100 +1,54 @@
-*{
-    font-family: prompt !important;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-:root{
-    --body-color:#E4E9F7;
-    --sidebar-color:rgb(20, 19, 19);
-    --primary-color:#695CFE;
-    --primary-color-light:#DDD;
-    --text-color:#8b8888;
-    --var-visibility:hidden;
-    --trans-02:all 0.2s ease;
-    --trans-03:all 0.3s ease;
-    --trans-04:all 0.4s ease;
-    --trans-05:all 0.5s ease;  
-}
-
-.logo-icon{
-    height: 30px;
-    width: 30px;
-    color: white;
-}
 .sidebar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 88dvh;
-    width: 280px;
-    padding: 10px 14px;
-    background: var(--sidebar-color);
-    transition: var(--trans-05);
+    height: 78dvh;
+    width: 300px;
+    position: absolute;
+    background-color: rgb(8, 8, 8);
+    z-index: 1;
+    left: -300px;
+    transition: .3s ease-in-out;
+    padding: 20px;
 }
-.sidebar ul{
-    padding: 0;
-    margin-top: 20px;
-}
-.sidebar li{
+.logo-icon{
     height: 50px;
-    margin-top: 10px;
+    width: 50px;
+}
+.logo-text{
+    font-size: 20px;
+    font-weight: 700;
+}
+.nav-logo{
+    gap: 0.5rem;
+}
+.list-none{
     list-style: none;
 }
-.log-image{
-    min-width: 60px;
-    display: flex;
-    justify-content: center;
-}
-.header-text{
-    color: #ffff;
-    font-size: 20px;
-}
-.nav-anchor{
-    color: var(--text-color);
-    height: 100%;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 0.7rem;
-}
-.link-icons{
-    display: flex;
-    align-items: center;
-    min-width: 60px;
-    height: 25px;
-}
-.nav-anchor:hover{
-    transition: .2s ease-in-out;
-    color: white;
-}
-.menu-bar{
-    height: 94%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.logo-items{
-    gap: 0.7rem;
-}
-.sidebar.close{
-    width: 82px;
-}
-
-.sidebar.close .nav-text{
-    opacity: 0;
+.nav-icon{
+    height: 30px;
+    width: 30px;
 }
 .nav-text{
-    transition: var(--trans-04);
-    white-space: nowrap;
-    opacity: 1;
+    font-size: 16px;
+    font-weight: 700;
 }
-
-@media (max-width : 998px){
+.nav-anchor{
+    color: rgb(170, 164, 164);
+    gap: 1.2rem;
+    transition: .2s ease-in-out;
+}
+.nav-anchor:hover{
+    color: white;
+}
+.nav-link-group{
+    padding: 30px 10px;
+    flex-direction: column;
+    gap: 1.5rem;
+    transition: .2s ease-in-out;
+}
+@media (max-width : 648px){
     .sidebar{
-     width: 82px;
+        width: 220px;
     }
- }
+  }
 
 
 

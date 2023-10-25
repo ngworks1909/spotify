@@ -1,15 +1,11 @@
 .body{
+   font-family: prompt;
     position: relative;
     height: 78dvh;
     overflow: hidden;
     overflow-y: scroll;
-    left: 280px;
-    width: calc(100% - 280px);
+    width: 100%;
     transition: var(--trans-05);
-}
-.remove-body{
-    left: 82px;
-    width: calc(100% - 82px);
 }
 .body::-webkit-scrollbar{
     width: 0;
@@ -61,29 +57,14 @@
   .final-space{
     padding: 40px 0 80px 0;
   }
-
-
-
-@media (max-width : 998px){
-    .body{
-     left: 82px;
-     width: calc(100% - 82px);
-    }
+  @media (max-width : 998px){
     .main-play-top-image{
-        transition: var(--trans-04);
-        height: 150px;
-        width: 150px;
+      transition: .4s ease-in-out;
+      height: 150px;
+      width: 150px;
     }
- }
- @media (max-width : 648px){
-    .main-play-top-image{
-        transition: var(--trans-04);
-        height: 125px;
-        width: 125px;
-    }
-    
- }
- @media (max-width : 760px){
+  }
+  @media (max-width : 760px){
 
     .sub-song-container{
         transition: var(--trans-04);
@@ -93,4 +74,10 @@
         transition: var(--trans-04);
         display: none;
     }
-  }
+    .main-play-top-image{
+      transition: .4s ease-in-out;
+      height: 125px;
+      width: 125px;
+    }
+}
+

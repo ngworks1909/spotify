@@ -15,9 +15,10 @@
     color: white;
 }
 
+
 @media (max-width : 648px){
     .reduce-size{
         transition: var(--trans-04);
         font-size: 14px;
     }
-  }
+}

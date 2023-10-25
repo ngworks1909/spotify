@@ -11,9 +11,9 @@ export default function Home() {
   return (
     <>
         <div className="home" id='home'>
-            <Navbar/>
-            <div className="sub-home display-flex">
               <Top/>
+            <div className="sub-home display-flex">
+              <Navbar/>
               <Body/>
             </div>
             <Bottom/>

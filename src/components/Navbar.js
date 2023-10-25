@@ -1,73 +1,57 @@
 import React from 'react'
 import '../css/Navbar.css'
 import { Link } from 'react-router-dom'
-import { AiFillHome,AiOutlinePlusSquare,AiFillHeart} from 'react-icons/ai'
-import {FiSearch} from 'react-icons/fi';
-import {BiLibrary,BiLogOut} from 'react-icons/bi';
-import {SiSpotify} from 'react-icons/si';
+import {FaSpotify} from 'react-icons/fa';
+import { AiFillHeart, AiFillHome, AiOutlinePlusSquare } from 'react-icons/ai';
+import { FiSearch } from 'react-icons/fi';
+import { BiLibrary } from 'react-icons/bi';
 
-
-export function getSideElement(){
-  return document.getElementById("sidebar");
-}
-
-export default function Navbar() { 
+export default function Navbar() {
   return (
-    <>
-      <nav className={`sidebar`} id="sidebar">
-        <div className="image-text">
-          <Link to='/' className='display-flex align-center decoration-none logo-items'>
-           <span className="log-image">
-            <SiSpotify className='logo-icon'/>
-           </span>
-          <span className="header-text">Spotify</span>
-          </Link>
-        </div>
-        <div className="menu-bar">
-           <div className="menu">
-             <ul className="menu-links">
-              <li className="nav-link display-flex align-center">
-                 <Link to="/" className='nav-anchor'>
-                  <AiFillHome className='link-icons'/>
-                  <span className="nav-text">Home</span>
-                 </Link>
-              </li>
-              <li className="nav-link display-flex align-center">
-                 <Link to="/" className='nav-anchor'>
-                  <FiSearch className='link-icons'/>
-                  <span className="nav-text">Search</span>
-                 </Link>
-              </li>
-              <li className="nav-link display-flex align-center">
-                 <Link to="/" className='nav-anchor'>
-                  <BiLibrary className='link-icons'/>
-                  <span className="nav-text">Library</span>
-                 </Link>
-              </li>
-              <li className="nav-link display-flex align-center">
-                 <Link to="/" className='nav-anchor'>
-                  <AiOutlinePlusSquare className='link-icons'/>
-                  <span className="nav-text">Create Playlist</span>
-                 </Link>
-              </li>
-              <li className="nav-link display-flex align-center">
-                 <Link to="/" className='nav-anchor'>
-                  <AiFillHeart className='link-icons heart'/>
-                  <span className="nav-text">Liked Songs</span>
-                 </Link>
-              </li>
-             </ul>
-           </div>
-           <div className="nav-bottom-content">
-              <li className="nav-link display-flex align-center">
-                 <Link to="/" className='nav-anchor'>
-                  <BiLogOut className='link-icons'/>
-                  <span className="nav-text">Logout</span>
-                 </Link>
-              </li>
-           </div>
-        </div>
-      </nav>
-    </>
+   <>
+      <div className="sidebar" id="sidebar">
+          <div className="logo-block">
+              <Link to={'/'} className='decoration-none display-flex align-center nav-logo'>
+               <FaSpotify className='color-white logo-icon'/>
+               <span className="logo-text color-white">Spotify</span>
+               </Link> 
+          </div>
+          <div className="menu-items">
+              <ul className="nav-link-group display-flex" id='nav-link-group'>
+                 <li className="nav-item list-none">
+                    <Link className="nav-anchor display-flex align-center decoration-none">
+                        <AiFillHome className='nav-icon'/>
+                        <span className="nav-text">Home</span>
+                    </Link>
+                 </li>
+                 <li className="nav-item list-none">
+                    <Link className="nav-anchor display-flex align-center decoration-none">
+                        <FiSearch className='nav-icon'/>
+                        <span className="nav-text">Search</span>
+                    </Link>
+                 </li>
+                 <li className="nav-item list-none">
+                    <Link className="nav-anchor display-flex align-center decoration-none">
+                        <BiLibrary className='nav-icon'/>
+                        <span className="nav-text">Library</span>
+                    </Link>
+                 </li>
+                 <li className="nav-item list-none">
+                    <Link className="nav-anchor display-flex align-center decoration-none">
+                        <AiOutlinePlusSquare className='nav-icon'/>
+                        <span className="nav-text">Create Playlist</span>
+                    </Link>
+                 </li>
+                 <li className="nav-item list-none">
+                    <Link className="nav-anchor display-flex align-center decoration-none">
+                        <AiFillHeart className='nav-icon'/>
+                        <span className="nav-text">Liked Songs</span>
+                    </Link>
+                 </li>
+              </ul>
+          </div>
+      </div>
+   </>
   )
 }
+
